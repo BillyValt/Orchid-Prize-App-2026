@@ -66,7 +66,7 @@ function pickWinner() {
 
     } else { winner = wishWinner; }
 
-    winnerNameEl.innerHTML = `${winner}`;
+    winnerNameEl.innerHTML = `🎉${winner}`;
 
     winnerNameEl.classList.remove('winner-name-animation');
 
