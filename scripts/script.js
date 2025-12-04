@@ -1,9 +1,11 @@
 import { participants, chosenWinner, threeWinners } from './dataParticipants.js';
 import createStars from './stars.js';
 import runSnowflakes from './snowflakes.js';
+import runXmasLights from './xmas_lights.js';
 
 // runSnowflakes();
 // createStars();
+runXmasLights();
 
 
 const startButton = document.querySelector('.js-start__btn');
@@ -35,7 +37,7 @@ function pickWinner() {
     </div>
   `;
 
-  winnerContainerEl.style.backgroundColor = 'rgb(227, 227, 227)';
+  winnerContainerEl.style.backgroundColor = 'rgb(247, 247, 247)';
 
   intervalId1 = setInterval(() => {
     const randomPerson2 = Math.floor(Math.random() * personTotalNumber);;
@@ -89,7 +91,7 @@ function pickPrize() {
     const copyResultImage = document.querySelector('.container__img');
 
     copyResultImage.classList.add('prize-animation-disappearing');
-  }, 6000);
+  }, 6200);
 
 
   setTimeout(() => {
@@ -129,7 +131,7 @@ function pickPrize() {
     startButton.style.display = 'none'
 
     resetButton.style.display = 'block';
-  }, 8000);
+  }, 7800);
 
 }
 
