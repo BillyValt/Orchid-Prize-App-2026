@@ -12,6 +12,7 @@ body {
   /* overflow: hidden;  */
   /* background: linear-gradient(0deg, #ee82ee, black 88%); */
   background: linear-gradient(7deg, #e9e9e9 30%, rgb(255, 0, 102) 60%, rgb(18, 12, 45) 90%);
+  
 }
 
 .snowflake {
@@ -59,7 +60,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.467) 1px, transparent 1px);
+  /* background: radial-gradient(circle, rgba(255, 255, 255, 0.467) 1px, transparent 1px); */
   background-size: 38px 44px;
   /* spacing between dots */
 
@@ -81,19 +82,6 @@ body {
   user-select: none;
 }
 
-
-.cont-filter {
-  position: fixed;
-  /* width: 100vw; */
-  /* height: 100%; */
-  /* top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; */
-  /* background-color: rgba(0, 0, 0, 0.378); */
-  z-index: 3;
-}
-
 .header {
   display: flex;
   align-items: center;
@@ -106,7 +94,6 @@ body {
   /* background-color: rgba(97, 102, 251, 0.145); */
   border-radius: 30px;
   z-index: 100;
-
 }
 
 .header>div {
