@@ -193,8 +193,8 @@ body {
 }
 
 .winner__container__animation {
-  animation: anime2 0.8s ease-in-out;
-  animation-iteration-count: 8;
+  animation: anime2 0.25s ease-in-out;
+  animation-iteration-count: 11;
 }
 
 @keyframes anime2 {
