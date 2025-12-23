@@ -39,11 +39,9 @@ export const participants = [{
   id: '13'
 }];
 
-
-
 //==== chosenWinner ====
 export const chosenWinner = [{
-  personName: localStorage.getItem('chosenWinner') || 'Алферова Марьяна',
+  personName: localStorage.getItem('chosenWinner') || 'Темир Алеся',
   id: '12'
 }];
 
@@ -51,9 +49,9 @@ export const threeWinners = [{
   personName: "Темир Алеся",
   id: '1'
 }, {
-  personName: "Гальченко Александра",
+  personName: "Садовникова Василиса",
   id: '2'
 }, {
-  personName: 'Куница София',
+  personName: "Ганзюк Анастасия",
   id: '3'
 }];
